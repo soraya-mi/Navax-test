@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Poppins;
+    src: url(assets/fonts/Poppins-Regular.ttf);
+  }
+body{
+    margin: 0;
+    font-family: Poppins;
+}
+.Header-container {
+    background-color:#6776FF;
+    width: 100%;
+    border-radius: 0px 0px 0px 400px;
+    height: 100%;
+    color:#fff;
+}
+.Nav {
+    margin:0px 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-shrink:0; */
+}
+.Nav-bar .Nav-item{
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+.Nav-title{
+    font-weight: bold;
+    font-size: 2em;
+}
+.Request-Btn{
+    background-color:#fff;
+    color:#6776FF;
+    border-radius: 5px;
+    border:none;
+}
+.Header-main{
+    display:flex;
+    flex-direction: row;
+    margin:0px 15%;
+}
+.Header-shape-container {
+    display:block;
+    width:100%;
+}
+
+
+/* .Header-shape{
+
+    border-top-left-radius: 55px;
+    border-top-right-radius: 55px;
+}
+.Header-shape-level-1{
+    background-color:#fff;
+    border:none;
+    width:100px;
+    height:110px;
+} */
