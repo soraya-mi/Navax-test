@@ -2,19 +2,51 @@
     font-family: Poppins;
     src: url(assets/fonts/Poppins-Regular.ttf);
   }
+  @font-face {
+    font-family: Poppins-Bold;
+    src: url(assets/fonts/Poppins-Bold.ttf);
+  }
 body{
     margin: 0;
     font-family: Poppins;
+    font-size: 1.1em;
 }
-.Header-container {
+.section{
+    margin:0px 18%;
+}
+.txt-gray{
+    color:#686B8D;
+}
+.bold{
+    font-family: Poppins-Bold;
+}
+.title{
+    font-size: 1.9em;
+    margin:.5em;
+}
+.center{
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-direction:row
+}
+.column{
+    display:flex;
+    flex-direction:column ;
+}
+/*Header*/
+.Header-bg {
     background-color:#6776FF;
     width: 100%;
+    margin:0px;
     border-radius: 0px 0px 0px 400px;
     height: 100%;
     color:#fff;
 }
 .Nav {
     margin:0px 15%;
+    padding-bottom: 5em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,16 +68,83 @@ body{
     border:none;
 }
 .Header-main{
-    display:flex;
-    flex-direction: row;
     margin:0px 15%;
 }
 .Header-shape-container {
     display:block;
     width:100%;
 }
-
-
+/*main*/
+.item-logo{
+    width:7em;
+    /* height:40%; */
+    border-radius: 50%;
+    display:inline-block;
+    /* margin: 0px 5px 5px 5px; */
+    margin:0 .4em;
+}
+.course-container{
+    border-radius: 50px;
+    border:5px solid blue;
+    height: 100%;
+    padding: .5em;
+    /* border-image:   */
+    /* linear-gradient(100% 100% at 0% 0%, #6776FF 0%, */
+     /* rgba(255, 255, 255, 0) 68.57%, */
+      /* rgba(255, 255, 255, 0) 100%); */
+}
+.course-img{
+    border-radius: 50px;
+}
+.course-tag{
+    background: #EAEDFF;
+    color:#6776FF;
+    border-radius: 5px;
+    padding: 5px;
+}
+.course-rate{
+    background: #6776FF;
+    border-radius: 15px;
+    padding: 5px 10px;
+    width: 10%;
+    justify-content: space-between;
+}
+.course-info{
+    justify-content: space-between;
+}
+/*Footer*/
+.footer{
+    color: #fff;
+    width: 100%;
+}
+.footer-bg{
+    background-color:#0B033C;
+    border-radius: 500px 0px 0px 0px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    padding-top: 10em;
+    padding-bottom: 7em;
+    padding-left: 7em;
+    /* transform: rotate(-13deg); */
+}
+.footer-info{
+    /* flex-grow: 1; */
+    flex-shrink: 1;
+    flex-basis: 0
+        /* flex-basis: 100%; */
+}
+/* .footer-list{
+    display:flex;
+    flex-direction: column;
+} */
+.social-logo{
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
 /* .Header-shape{
 
     border-top-left-radius: 55px;
