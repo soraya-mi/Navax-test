@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+  }
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../fonts//Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Poppins-Thin;
+    src: url(../fonts/Poppins-Thin.ttf)
+}
+@font-face {
+    font-family: Gilory;
+    src: url(../fonts/gilroy/Gilroy-Medium.ttf)
+}
+
+/*general selectors*/
+*{
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Poppins;
+    font-size: 1.1em;
+}
+.section{
+    margin:0px 15%;
+    z-index: 10;
+    /* position: absolute; */
+}
+.txt-gray{
+    color:#686B8D;
+}
+.bold{
+    font-family: Poppins-Bold;
+}
+.title{
+    font-family: Poppins-Bold;
+    font-size: 1.3em;
+    /* margin:.5em; */
+}
+.center{
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-direction:row;
+    /* flex-shrink:0; */
+    /* box-sizing: border-box; */
+}
+.column{
+    display:flex;
+    flex-direction:column ;
+}
