@@ -1,25 +1,3 @@
-@font-face {
-    font-family: Poppins;
-    src: url(../fonts/Poppins-Regular.ttf);
-  }
-@font-face {
-    font-family: Poppins-Bold;
-    src: url(../fonts//Poppins-Bold.ttf);
-}
-*{
-    font-family: Poppins;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.row{
-    display: flex;
-    flex-direction: row;
-}
-.column{
-    display: flex;
-    flex-direction: column;
-}
 #header{
     background-image: url(../images/hero/bgheader-bg.png);
     background-size: 100% 100%;
