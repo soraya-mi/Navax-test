@@ -22,9 +22,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+a {
+    text-decoration: none;
+}
 body{
     margin: 0;
-    font-family: Poppins;
+    font-family: Poppins-Bold;
     font-size: 1.1em;
 }
 .section{

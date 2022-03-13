@@ -59,16 +59,19 @@
 
 }
 .subscribe{ 
-    display: table;
+    /* display: table; */
     background: #F2F2F2;
     border: 1px solid #6C63FF;
-    border-radius: 5px;
+    border-radius: 20px;
     padding-left: 1.5em;
-    /* padding-right: .3em; */
-    /* padding-top: .3em; */
-    /* padding-bottom: .3em; */
+    /* padding-right: .02em; */
+    padding-top: .2em;
+    padding-bottom: .2em;
+    margin-top: 1em;
     height:100px;
     width:60%;
+    justify-content: space-between;
+    align-items:center;
 }
 .contact span h1{
     font-family: Gilory;
@@ -80,6 +83,7 @@
     display: table-cell;
     background-color: #F2F2F2;
     /* width: 50%; */
+   
 }
 .email-input >input{
     width: 100%;
@@ -93,7 +97,8 @@
     border:none;
     height:100%;
     float:right;
-    padding:1% 40%;
+    padding:1% 15%;
+    /* width:40%; */
     
 }
 .subscribe input[type=text]{
@@ -115,7 +120,6 @@
     align-items: baseline;
 }
 .footer-links a{
-    text-decoration: none;
     color:#fff;
 }
 .footer-list{
@@ -194,3 +198,8 @@ text-align: center;
 display: table;
 margin: 0 auto;
 }
+
+/* TO Do
+    1- subscribe button
+    2- contect border
+*/

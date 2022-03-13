@@ -34,14 +34,13 @@ nav select{
 .request-btn{
     background-color:#fff;
     color:#6776FF;
-    border-radius: 5px;
+    border-radius: 20px;
     border:none;
     box-sizing: border-box;
-    padding: 15px;
+    padding: 18px 28px;
 }
 nav a{
     color:#fff;
-    text-decoration: none;
 }
 nav .logo{
     font-weight: bold;
@@ -89,6 +88,10 @@ nav .request-btn{
     justify-content: start;
     align-items: center;
     align-content: center;
+    gap:1.5em;
+}
+span.intro-btn-sec > a.btn-request{
+    margin-right:1em;
 }
 .play-btn{
     display: inline-block;
@@ -109,6 +112,7 @@ nav .request-btn{
 .intro-text{
     padding-top: 5%;
     justify-content: space-evenly;
+    gap:4em;
     /* height: 100%; */
 }
 .intro-text ul{
