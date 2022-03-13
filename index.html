@@ -2,72 +2,74 @@
 <html>
     <head>
         <title>Navax Test Project</title>
+        <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="styles.css">
+        
+          <!-- Web page CSS -->
+          <link rel="stylesheet" type="text/css" href="./assets/styles/Header.css">
+        <link rel="stylesheet" type="text/css" href="./assets/styles/styles.css">
+        <link rel="stylesheet" type="text/css" href="./assets/styles/Footer.css">
+        <link rel="stylesheet" type="text/css" href="./assets/styles/media-queries.css">
     </head>
     <body>
-        <div class="Header-bg">
-            <div class="Nav">
-                <div class="Nav-item Nav-title">Edou.</div>
-            <div class="Nav-bar">     
-                <select class="Nav-item" name="Courses">
-                    <option value="Courses" >Courses</option>
-                </select>
-                <select class="Nav-item" name="Innavoations">
-                    <option value="Innavoations" >Innavoations</option>
-                </select>
-                <select class="Nav-item" name="Platforms">
-                    <option value="Platforms" >Platforms</option>
-                </select>
-                <select class="Nav-item" name="Resources">
-                    <option value="Resources" >Resources</option>
-                </select>
-            </div>
-                <div class="Nav-item">About</div>
-                <button class="Nav-item Request-Btn">Request Demo</button>
+        <!--Nav Bar-->
+        <div id="container">
+            <div id="header">
+                <nav class="Nav">
+                    <a href="#default" class="Nav-item logo">Edou.</a>
+                    <select class="Nav-item" name="Courses">
+                        <option value="Courses"><a href="#default" class="nav-link" id="nav-link">Courses</a></option>
+                    </select>
+                    <select class="Nav-item" name="Innavoations">
+                        <option value="Innavoations" ><a href="#default" class="nav-link" id="nav-link">Innavoations</a></option>
+                    </select>
+                    <select class="Nav-item" name="Platforms">
+                        <option value="Platforms" ><a href="#default" class="nav-link" id="nav-link">Platforms</a></option>
+                    </select>
+                    <select class="Nav-item" name="Resources">
+                        <option value="Resources"><a href="#default" class="nav-link" id="nav-link">Resources</a></option>
+                    </select>
+                    <span class="Nav-item"><a href="#default" class="nav-link" id="nav-link">About</a></span>
+                    <a class="Nav-item request-btn">Request Demo</a>                 
+            </nav>            
+            <section class="hero row">
+                <div class="intro-text column">
+                   <span id="hero-title">Take Your Learning To The Next level</span>
+                    <p id="intro-description">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                         sed diam nonummy nibh euismod tincidunt ut consectetuer adipiscing elit.
+                    </p>  
+                    <span class="intro-btn-sec row">
+                    <a class="btn request-btn header-right">Request Demo</a> 
+                    <a class="btn play-btn"></a>
+                    <a href="#">What's Edou.?</a>
+                    </span>
+                  <ul class="hero-info-cart-container row">
+                    <li class="hero-info-cart column" >
+                        <div class="hero-info-cart-icon" id="schools-icon">
+                        </div>
+                        <p><strong>16,032</strong></p>
+                        <p>schools</p>
+                    </li>
+                    <li class="hero-info-cart column" >
+                        <div class="hero-info-cart-icon" id="users-icon">
+                        </div>
+                        <p><strong>16,032</strong></p>
+                        <p>schools</p>
+                    </li>
+                    <li class="hero-info-cart column" >
+                        <div class="hero-info-cart-icon" id="countries-icon">
+                        </div>
+                        <p><strong>16,032</strong></p>
+                        <p>schools</p>
+                    </li> 
+                    </ul>                                     
                 </div>
-             <div class="Header-main row">
-                 <div>
-                    <div class="Header-title">
-                    Take Your Learning To The Next level
+                <div class="hero-image">
+                    <img src="./assets/images/hero/hro-img.png"/>
                 </div>
-                <div class="Header-description">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-sed diam nonummy nibh euismod tincidunt ut
-consectetuer adipiscing elit.
-                </div>  
-                <div>
-                    <button class="Request-Btn">Request Demo</button>
-                </div>
-                <div>
-                    <label for="Play-Btn"></label>
-                    <button class="Play-Btn">
-                        <!-- <svg class="circle-fill">
-                            <circle cx="41" cy="41" r="37" stroke="none" stroke-width="1"></circle>
-                            <polygon fill="none" stroke="#fff" stroke-width="1" points="32,25 32,58 60,42"></polygon>
-                          </svg> -->
-                    </button>                 
-                </div>
-                 </div>
-
-                <div class="header-shape">
-                <svg xmlns="./assets/images/imgHeader_shape.svg"></svg>
-                <!-- <div class="Header-shape-container">
-                    <div class="Header-shape Header-shape-level-1"></div>
-                    <div class="Header-shape Header-shape-level-2"></div>
-                    <div class="Header-shape Header-shape-level-3"></div>
-                </div> -->
-                </div>         
-
-            </div>
-           <!-- <div class="Info-Section">
-                <div class="Info-Container">
-                    <img src="">
-                    <div></div>
-                    <div></div>
-                </div>
-            </div> -->
-        </div>
+            </section>          
+    </div>
         <!--benefits-->
         <section class="row section">
             <div style="width:65%;"></div>
@@ -202,8 +204,10 @@ consectetuer adipiscing elit.
                 
         </section>
         </div>
+
+
         </section>
-        <!--Become an innovation-->
+        <!--Become an instructor-->
         <section class="section row">
             <div>
                 <div class="title bold">Become an instructor</div>
@@ -212,14 +216,15 @@ consectetuer adipiscing elit.
                 <button class="">Click here to Apply</button>
             </div>
             <div></div>
-
         </section>
         <!--iur innovations-->
-        <section class="section" style="background-color: #EAEDFF;"></section>
+        <section class="section" style="background-color: #EAEDFF;">
+        </section>
         <!--student testiomonal-->
         <div class="Contact"></div>
         <div class="footer">
-            <div class="footer-bg">
+            <section class="contact"></section>
+            <section>
                 <div class="footer-info column">
                     <div>Edu.</div>
                     <div>Lorem ipsum dolor amet,
@@ -261,9 +266,8 @@ consectetuer adipiscing elit.
                     <div>(880) 123 456 789</div>
                     <div>support@mail.com</div>
                 </div>
-            </div>
-            </div>
+            </section>
         </div>
-    </div>
+        </div>
     </body>
 </html>
