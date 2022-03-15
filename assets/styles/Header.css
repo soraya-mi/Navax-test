@@ -14,6 +14,8 @@ nav {
   height: 100%;
   overflow: hidden;
   /* display: table; */
+  vertical-align: baseline;
+  justify-content: space-between;
 }
 nav,
 nav > * {
@@ -21,44 +23,37 @@ nav > * {
   text-align: center;
   vertical-align: baseline;
 }
-/* nav >*{ */
-/* display:inline-block;
-    display:table-cell;
-    vertical-align: middle; */
-/* line-height: 25px; */
-/* } */
 nav select {
   background-color: transparent;
   border: none;
   text-align: center;
 }
-.request-btn {
-  background-color: #fff;
-  color: #6776ff;
-  border-radius: 20px;
-  border: none;
-  box-sizing: border-box;
-  padding: 18px 28px;
+.Nav-item{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 20px;
+  font-size: 20px;
 }
+
 nav a {
   color: #fff;
 }
 nav .logo {
   font-weight: bold;
   text-decoration: none;
-  font-size: 1.5em;
   text-align: center;
   float: left;
-  margin-right: auto;
-  line-height: 25px;
-  /* border-radius: 4px; */
+  margin-right: 5%;
+  font-family: Gilory;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 61px;
 }
 nav .request-btn {
-  margin-right: 5%;
+  margin-right: 0%;
+  margin-left: 5%;
   float: right;
-  /* position:absolute; */
 }
-
 /*Hero section*/
 .hero {
   margin-top: 7%;
@@ -119,9 +114,6 @@ span.intro-btn-sec > a.btn-request {
   list-style: none;
   width: 70%;
 }
-/* .intro-text ul li{
-    margin: 0 10px;
-} */
 .intro-btn-sec a:last-child {
   color: #fff;
 }
@@ -131,15 +123,15 @@ span.intro-btn-sec > a.btn-request {
 .hero-info-cart {
   /* position: absolute; */
   background: #ffffff;
-  box-shadow: 0px 10px 50px rgba(103, 118, 255, 0.1);
-  border-radius: 35px;
   width: 150px;
   height: 170px;
-  padding: 10px;
+  padding: 3px;
   align-items: center;
   /* justify-content: space-between; */
+  box-shadow: 0px 10px 50px rgba(103, 118, 255, 0.1);
+  /* border-radius: 35px;
   border-collapse: separate;
-  border: 10px solid;
+  border: 10px solid transparent;
   border-image-slice: 1;
   border-width: 3px;
   border-image-source: linear-gradient(
@@ -149,6 +141,30 @@ span.intro-btn-sec > a.btn-request {
     #6776ff 4.57%,
     rgba(255, 255, 255, 0) 95.43%
   );
+  -webkit-mask: 
+  linear-gradient(
+    7.75deg,
+    #6776ff 4.57%,
+    rgba(255, 255, 255, 0) 95.43%,
+    #6776ff 4.57%,
+    rgba(255, 255, 255, 0) 95.43%
+  ) padding-box, 
+  linear-gradient(#fff 0 0); */
+  border:  1px transparent;
+  border-radius: 35px;
+  border-width: 3px;
+  background-image: 
+  linear-gradient(white, white),
+   radial-gradient(circle,rgba(255, 255, 255, 0),
+   rgba(255, 255, 255, 0),
+   #6776FF);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+
+
+/* border-image-source: linear-gradient(185.75deg, #6776FF 4.57%, rgba(255, 255, 255, 0) 95.43%); */
+
+
 }
 .hero-info-cart p:first-of-type {
   color: #14c798;
@@ -160,7 +176,6 @@ span.intro-btn-sec > a.btn-request {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 50%, 100%;
-  /* background-color: #C6F1E7; */
   width: 50%;
   height: 50%;
   border-radius: 50%;
@@ -168,6 +183,7 @@ span.intro-btn-sec > a.btn-request {
   /* position:absolute;
     left:25%;
     top:5%; */
+    margin-top: 12%;
 }
 #schools-icon {
   background-image: url("../images/hero/Vectorcart1.svg"),

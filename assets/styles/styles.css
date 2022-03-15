@@ -59,3 +59,20 @@ body {
   display: flex;
   flex-direction: column;
 }
+.request-btn {
+  background-color: #fff;
+  color: #6776ff;
+  border-radius: 20px;
+  border: none;
+  box-sizing: border-box;
+  /* width: 221px; */
+  /* height: 70px; */
+  text-align: center;
+  vertical-align:middle;
+  padding:20px 30px;
+}
+.request-btn:hover {
+  background: #6776ff;
+  color: #fff;
+  border: 1px solid #fff;
+}
